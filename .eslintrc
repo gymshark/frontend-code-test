@@ -1,0 +1,50 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": false
+    }
+  },
+  "plugins": ["@typescript-eslint", "cypress"],
+  "extends": [
+    "airbnb",
+    "plugin:prettier/recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:json/recommended",
+    "plugin:cypress/recommended"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "max-len": [2, 120, 4, { "ignoreUrls": true, "ignorePattern": "d=\"([\\s\\S]*?)\"" }],
+    "no-use-before-define": "off",
+    "import/no-unresolved": 0,
+    "import/extensions": 0,
+    "import/prefer-default-export": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-indent": ["error", 4],
+    "react/jsx-indent-props": ["error", 4],
+    "react/jsx-wrap-multilines": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-filename-extension": [
+      2,
+      {
+        "extensions": [".ts", ".tsx"]
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["**/*.spec.ts", "**/*.spec.tsx", "jest.config.js", "jest.setup.ts"]
+      }
+    ],
+    "@typescript-eslint/no-use-before-define": ["error"]
+  }
+}
