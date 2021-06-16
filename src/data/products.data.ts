@@ -62,7 +62,7 @@ export const products = [
         },
     },
     {
-        id: 4847852257358,
+        id: 2,
         sku: 'GSCT3252',
         isNewRelease: false,
         inStock: true,

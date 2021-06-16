@@ -46,5 +46,8 @@
       }
     ],
     "@typescript-eslint/no-use-before-define": ["error"]
+  },
+  "env": {
+    "jest": true
   }
 }
