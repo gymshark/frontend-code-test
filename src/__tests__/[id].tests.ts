@@ -1,7 +1,7 @@
 import { createMocks } from 'node-mocks-http';
 
 import { products } from '../data/products.data';
-import handleProduct from '../pages/api/products/[id]';
+import handleProduct, { filterProducts } from '../pages/api/products/[id]';
 
 const ids = ['1', '2'];
 
@@ -17,10 +17,10 @@ describe('/api/products/[id]', () => {
         await handleProduct(req, res);
 
         expect(res._getStatusCode()).toBe(200);
-        expect(JSON.parse(res._getData())).toEqual(expect.objectContaining(products[parseInt(id) - 1]));
+        expect(JSON.parse(res._getData())).toEqual(expect.objectContaining(products[parseInt(id, 10) - 1]));
     });
 
-    test('returns an array of products', async () => {
+    test('returns a 404 response', async () => {
         const { req, res } = createMocks({
             method: 'GET',
             query: {
@@ -31,5 +31,17 @@ describe('/api/products/[id]', () => {
         await handleProduct(req, res);
 
         expect(res._getStatusCode()).toBe(404);
+    });
+
+    test('filteredProduct returns the correct product', () => {
+        const product = filterProducts('1');
+
+        expect(product).toMatchObject(products[0]);
+    });
+
+    test('filteredProduct returns the correct product if passed array', () => {
+        const product = filterProducts(['1']);
+
+        expect(product).toMatchObject(products[0]);
     });
 });

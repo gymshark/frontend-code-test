@@ -56,10 +56,34 @@ export const products = [
         discountPercentage: 30,
         featuredMedia: {
             alt: 'Flex High Waisted Leggings',
-            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/FlexHighWaistedLeggingsBlack2GLLG4248.A_ZH_ZH.jpg?v=1620901675',
-            height: 2018,
-            width: 1692,
+            src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/1/flex-high-waisted-1.jpg',
         },
+        media: [
+            {
+                alt: 'Flex High Waisted Leggings',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/1/flex-high-waisted-1.jpg',
+            },
+            {
+                alt: 'Flex High Waisted Leggings',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/1/flex-high-waisted-2.jpg',
+            },
+            {
+                alt: 'Flex High Waisted Leggings',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/1/flex-high-waisted-3.jpg',
+            },
+            {
+                alt: 'Flex High Waisted Leggings',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/1/flex-high-waisted-4.jpg',
+            },
+            {
+                alt: 'Flex High Waisted Leggings',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/1/flex-high-waisted-5.jpg',
+            },
+            {
+                alt: 'Flex High Waisted Leggings',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/1/flex-high-waisted-6.jpg',
+            },
+        ],
     },
     {
         id: 2,
@@ -114,9 +138,33 @@ export const products = [
         discountPercentage: 40,
         featuredMedia: {
             alt: 'Vital T-Shirt',
-            src: 'https://cdn.shopify.com/s/files/1/0156/6146/products/TUBULARSHORTSLEEVET-SHIRTBLACKMARL.A-Edit_ZH.jpg?v=1601992132',
-            height: 2018,
-            width: 1692,
+            src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/2/vital-t-shirt-1.jpg',
         },
+        media: [
+            {
+                alt: 'Vital T-Shirt',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/2/vital-t-shirt-1.jpg',
+            },
+            {
+                alt: 'Vital T-Shirt',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/2/vital-t-shirt-2.jpg',
+            },
+            {
+                alt: 'Vital T-Shirt',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/2/vital-t-shirt-3.jpg',
+            },
+            {
+                alt: 'Vital T-Shirt',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/2/vital-t-shirt-4.jpg',
+            },
+            {
+                alt: 'Vital T-Shirt',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/2/vital-t-shirt-5.jpg',
+            },
+            {
+                alt: 'Vital T-Shirt',
+                src: 'https://cdn.staging.gymshark.com/images/frontend-code-test/2/vital-t-shirt-6.jpg',
+            },
+        ],
     },
 ];

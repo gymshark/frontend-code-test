@@ -6,14 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "test:ci": "jest --ci"
   },
   "dependencies": {
+    "@types/styled-components": "^5.1.10",
     "next": "11.0.0",
     "node-mocks-http": "^1.10.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "styled-components": "^5.3.0",
     "swr": "^0.5.6"
   },
   "devDependencies": {

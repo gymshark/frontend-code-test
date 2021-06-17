@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import { Placeholder } from '../components/placeholder/placeholder.component';
+import { Logo } from '../components/logo/logo.component';
 
 const index = () => (
     <>
@@ -9,7 +9,7 @@ const index = () => (
             <link rel="icon" href="/favicon.png" />
         </Head>
 
-        <Placeholder />
+        <Logo />
     </>
 );
 

@@ -1,3 +1,7 @@
+export type ImageType = {
+    alt: string;
+    src: string;
+};
 export interface ProductProps {
     id: number;
     sku: string;
@@ -23,10 +27,6 @@ export interface ProductProps {
     price: number;
     compareAtPrice: number;
     discountPercentage: number;
-    featuredMedia: {
-        alt: string;
-        src: string;
-        height: number;
-        width: number;
-    };
+    featuredMedia: ImageType;
+    media: ImageType[];
 }
