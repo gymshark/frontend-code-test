@@ -6,7 +6,7 @@ import { ProductProps } from '../../../@types';
 export const filterProducts = (id: string | string[]): ProductProps =>
     products.filter((p) => p.id === parseInt(typeof id === 'object' ? id[0] : id, 10))[0];
 
-const handleProduct = (req: NextApiRequest, res: NextApiResponse) => {
+const handleProduct = (req: NextApiRequest, res: NextApiResponse): void => {
     const { id } = req.query;
 
     const filteredProduct = filterProducts(id);

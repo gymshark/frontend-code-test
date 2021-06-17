@@ -8,14 +8,13 @@
       "jsx": false
     }
   },
-  "plugins": ["@typescript-eslint", "cypress"],
+  "plugins": ["@typescript-eslint"],
   "extends": [
     "airbnb",
     "plugin:prettier/recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
-    "plugin:json/recommended",
-    "plugin:cypress/recommended"
+    "plugin:json/recommended"
   ],
   "settings": {
     "react": {
@@ -24,6 +23,7 @@
   },
   "rules": {
     "max-len": [2, 120, 4, { "ignoreUrls": true, "ignorePattern": "d=\"([\\s\\S]*?)\"" }],
+    "no-underscore-dangle": ["error", { "allow": ["_getStatusCode", "_getData"] }],
     "no-use-before-define": "off",
     "import/no-unresolved": 0,
     "import/extensions": 0,
@@ -33,6 +33,7 @@
     "react/jsx-indent-props": ["error", 4],
     "react/jsx-wrap-multilines": "off",
     "react/jsx-one-expression-per-line": "off",
+    "react/react-in-jsx-scope": "off",
     "react/jsx-filename-extension": [
       2,
       {

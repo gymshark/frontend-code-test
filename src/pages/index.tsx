@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import { Logo } from '../components/logo/logo.component';
 
-const index = () => (
+const index = (): JSX.Element => (
     <>
         <Head>
             <title>Gymshark - Frontend Code Challange</title>

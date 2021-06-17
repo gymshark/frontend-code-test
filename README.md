@@ -36,40 +36,40 @@ your application.
 
 We look forward to receiving your application!
 
-## If you have time?
+## If you have time
 
 -   Experiment with product tags and product fits to improve the product card
 -   Implement tests for any components or services that you have built
 -   Improve accessibility of the user journey by enabling keyboard navigation
 -   Improve the overall aesthetic of the user journey with smooth transitions or micro-interactions
 
-# Getting Started Guide
+## Getting Started Guide
 
-## Install
+### Install
 
     yarn
 
-## Run the app
+### Run the app
 
     yarn dev
 
-## Run the tests
+### Run the tests
 
     yarn test
 
-## Rest API
+### Rest API
 
 This application comes with two api endpoints which can be viewed within `/src/pages/api/products`
 
-## Get Products
+### Get Products
 
-#### Request
+#### Get Products Request
 
 `GET /api/products/`
 
     curl -i -H 'Accept: application/json' http://127.0.0.1:3000/api/products
 
-#### Response
+#### Get Products Response
 
     HTTP/1.1 200 OK
     Date: Thu, 17 Jun 2021 14:27:03 GMT
@@ -80,15 +80,15 @@ This application comes with two api endpoints which can be viewed within `/src/p
 
     [{ product }, { product }]
 
-## Get Product by ID
+### Get Product by ID
 
-#### Request
+#### Get Product Request
 
 `GET /api/products/[id]`
 
     curl -i -H 'Accept: application/json' http://127.0.0.1:3000/api/products/1
 
-### Response
+#### Get Product Response
 
     HTTP/1.1 200 OK
     Date: Thu, 17 Jun 2021 14:32:23 GMT
