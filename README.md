@@ -36,6 +36,13 @@ your application.
 
 We look forward to receiving your application!
 
+## If you have time?
+
+-   Experiment with product tags and product fits to improve the product card
+-   Implement tests for any components or services that you have built
+-   Improve accessibility of the user journey by enabling keyboard navigation
+-   Improve the overall aesthetic of the user journey with smooth transitions or micro-interactions
+
 # Getting Started Guide
 
 ## Install
