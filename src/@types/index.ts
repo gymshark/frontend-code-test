@@ -2,6 +2,7 @@ export type ImageType = {
     alt: string;
     src: string;
 };
+
 export interface ProductProps {
     id: number;
     sku: string;

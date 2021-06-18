@@ -13,13 +13,13 @@ Utilising the current setup built with NextJs/React, TypeScript and Jest build a
 -   Using the provided API fetch the products.
 -   Display the two products as per Figma designs:
 -   Style product cards appropriately including before & after price.
--   Page Should be responsive
+-   Page should be responsive
 
 **Product Display Page:**
 
 -   Using the provided api fetch the relevant product based on id.
 -   Display the product imagery as per Figma designs.
--   Page Should be responsive
+-   Page should be responsive
 
 ## Design
 

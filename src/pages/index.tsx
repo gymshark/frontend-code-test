@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 import { Logo } from '../components/logo/logo.component';
 
-const index = (): JSX.Element => (
+const Index = (): JSX.Element => (
     <>
         <Head>
             <title>Gymshark - Frontend Code Challange</title>
@@ -13,4 +13,4 @@ const index = (): JSX.Element => (
     </>
 );
 
-export default index;
+export default Index;
