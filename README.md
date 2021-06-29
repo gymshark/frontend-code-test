@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The main goal of this exercise is to produce a web application demonstrating understanding in some of the core elements in frontend engineering. We are specifically interested in your ability to write clean, well structured and testable JavaScript, and your ability to create a pleasant an error free user experience.
+The main goal of this exercise is for you to produce a web application, demonstrating your understanding of the core elements in frontend engineering. We are specifically interested in your ability to write clean, well structured, testable JavaScript, as well as your ability to create a pleasant and error free user experience.
 
 ## Brief
 
